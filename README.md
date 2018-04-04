@@ -1,4 +1,4 @@
-# Flickr_dll
+# Flickr_dl
 Flickr APIを使用した画像取得スクリプト
 
 *****
@@ -22,5 +22,5 @@ Flickr APIを使用した画像取得スクリプト
 ### 実行
 ・下記コマンドを実行すると、画像保存先(./images/{検索ワード})に対象の画像が保存される。
 
-　　python image_dll.py {検索ワード} {取得枚数}
+　　python image_dl.py {検索ワード} {取得枚数}
 
