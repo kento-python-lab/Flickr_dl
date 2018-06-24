@@ -1,8 +1,9 @@
 from flickrapi import FlickrAPI
 from urllib.request import urlretrieve
 from pprint import pprint
-import os, time, sys
-
+import os
+import sys
+import time
 
 # APIキーを設定
 key = ''

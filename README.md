@@ -8,10 +8,21 @@ Flickr APIを使用した画像取得スクリプト
 
 ・APIキーとシークレットキーをスクリプト内に追記する。
 
-　　key = ''　←　APIキー
+```python:image_dl.py
+from flickrapi import FlickrAPI
+from urllib.request import urlretrieve
+from pprint import pprint
+import os
+import sys
+import time
 
-　　secret = ''　←　シークレットキー
+# ↓APIキーを設定
+key = ''
+# ↓シークレットキーを設定
+secret = ''
 
+# 省略
+```
 
 ・下記コマンドを実行してPythonライブラリ取得する。
 
