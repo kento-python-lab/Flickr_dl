@@ -11,6 +11,7 @@ key = ''
 secret = ''
 
 # ダウンロード待機時間の設定(あまり短くしない)
+# 1以上にすること
 wait_time = 3
 
 # 検索ワードの存在チェック
@@ -51,6 +52,7 @@ try:
         url_q = photo['url_q']
         file_path = save_dir + '/' + photo['id'] + '.jpg'
 
+        # すでに保存済みの画像の場合はスキップ
         if os.path.exists(file_path):
             continue
 
